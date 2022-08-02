@@ -1,0 +1,76 @@
+#header-container{
+    text-align: left;
+    font-size: 50px;
+    border-bottom: solid;
+    border-width: 3px;
+}
+#logout{
+    position: fixed;
+    top:0px;
+    right: 100px;
+}
+
+.body-container{
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    display: flex;
+    flex-grow: initial;
+}
+.Payment {
+    margin: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    color:#277582;
+    background-image: url("tenet_home_images/Rent-Image.png");
+    background-size: auto;
+    background-position:center;
+    text-align: center;
+    Width: 408px;
+    Height: 787px;
+}
+.Maintenance{
+    margin: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    color: #277582;
+    background-image: url("tenet_home_images/Maintenance-Image.png");
+    background-position: center;
+    text-align: center;
+    Width: 408px;
+    Height: 787px;
+}
+.Messages{
+    margin: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    color: #277582;
+    background-image: url("tenet_home_images/Messages-Image.png");
+    background-position: center;
+    text-align: center;
+    Width: 408px;
+    Height: 787px;
+}
+.Documents{
+    margin: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    color: #277582;
+    background-image: url("tenet_home_images/Document-Image.png");
+    background-position: bottom;
+    text-align: center;
+    Width: 408px;
+    Height: 787px;
+}

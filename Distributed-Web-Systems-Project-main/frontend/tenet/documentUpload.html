@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Form</title>
+    <link rel="stylesheet" href="documentUpload.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Document Form</h2>
+        <form method="post">
+            <h4>Upload Document</h4>
+            <div class="input-box">
+                <input type="file" accept=".doc,.docx,.pdf">
+            </div>
+        
+        
+        <h4>View Documents</h4>
+        <div style="overflow: auto; height: 300px;">
+            <table id="documentTable">
+                <tr>
+                    <th>Date</th>
+                    <th>Document</th>
+                </tr> 
+            </table>
+        </div>
+    </form>
+        
+      
+        <div class="input-group">
+            <div class="input-box", id="e1">
+                <a href="#"><button type="submit" onclick="window.location.replace('Tenet_home.html')">Cancel</button></a>
+            </div>
+            <div class="input-box", id="e2">
+                <a href="#"><button type="submit" onclick="window.location.replace('Tenet_home.html')">Submit</button></a>
+            </div>
+        </div>
+        
+    </div>
+  </body>
+</html>

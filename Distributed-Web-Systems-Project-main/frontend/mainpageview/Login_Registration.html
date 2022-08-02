@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Registration</title>
+    <link rel="stylesheet" type="text/css" href="Login_Style.css">
+</head>
+</style>
+<body >
+<h1 onclick="window.location.replace('homePage.html')">BANDYL</h1>
+<h2>Login</h2>
+<form id="login">
+    <br>
+    <input type="text" id="Username" placeholder="Username"/>
+    <br>
+    <input type="text" id="Password" placeholder="Password"/>
+    <br><br>
+    <input type="button" value="Login" id="Login-button" onclick="redirectTenet()"/>
+    <br>
+    <input type="button" value="Forgot Username or Password" id="Forgot" onclick="window.location.replace('Forgot.html')">
+    <div id="Error-message"/>
+</form>
+<h2>Register</h2>
+<form id="Registration">
+    <br>
+    <input type="text" id="Fname" placeholder="Enter first name"/>
+    <br>
+    <input type="text" id="Lname" placeholder="Enter last name"/>
+    <br>
+    <input type="date" id="Birthday"/>
+    <br>
+    <input type="text" id="RUsername" placeholder="Enter Username"/>
+    <br>
+    <input type="text" id="RPassword" placeholder="Enter Password"/>
+    <br>
+    <input type="text" id="RRPassword" placeholder="Re-enter Password"/>
+    <br>
+    <input type="button" value="Register" id="Registration-button" onclick="redirectHome()"/>
+</form>
+
+</body>
+</html>

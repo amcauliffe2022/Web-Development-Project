@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Review Form</title>
+    <link rel="stylesheet" href="apartmentReview.css">
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Review Form</h2>
+      <form method="post">
+          <div class="input box">
+              <h4>Write Review</h4>
+              <textarea placeholder="Please describe the problem."
+              name="name" rows="8" cols="54"></textarea>
+          </div>
+
+          <h4>View Reviews</h4>
+          <div style="overflow: auto; height: 300px;">
+            <table id="documentTable">
+                <tr>
+                    <th>Dates</th>
+                    <th>Reviews</th>
+                </tr> 
+            </table>
+          </div>
+        </form>
+          
+          <div class="input-group">
+            <div class="input-box", id="e1">
+              <a href="#"><button type="submit" onclick="window.location.replace('Tenet_home.html')">Cancel</button></a>
+            </div>
+            <div class="input-box", id="e2">
+              <a href="#"><button type="submit" onclick="window.location.replace('Tenet_home.html')">Submit</button></a>
+            </div>
+          </div>
+      
+    </div>
+  </body>
+</html>
